@@ -1,0 +1,98 @@
+.all
+{
+    background-image: url('pngtree-young-man-university-student-watching-online-class-sitting-in-front-of-image_78633.png');
+    height:100vh;
+    background-size:cover
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+}
+.kiri
+{
+    display:flex;
+    justify-content: flex-start;
+    margin-left: 25px;
+    margin-top: 40px;
+    font-size: 25px;
+  
+}
+.kanan {
+    display : flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.home
+{
+    text-decoration: none;
+    color:blueviolet;
+}
+.link
+{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    color:blueviolet;
+    font-size: 25px;
+}
+.boxform
+{
+    margin-left:45px;   
+}
+.contact 
+{
+    margin-top: 85px;
+    font-size: 60px;
+    color:blueviolet;
+    margin-bottom: 5px;
+    margin-left: 32px;
+}
+.input-nama
+{
+    border-radius:30px;
+    height: 60px;
+    width:350px;
+    padding-left: 10px;
+   margin-bottom: 15px;
+}
+.input-email
+{
+    border-radius:30px;
+    height: 60px;
+    width:350px;
+    padding-left: 10px;
+   margin-bottom: 15px;
+}
+.input-message
+{
+    border-radius:30px;
+    height:100px;
+    width:350px;
+  
+    padding-left:10px;
+    margin-bottom :15px;
+    display :flex;
+   
+}
+.input-area
+{
+    margin-top: 5px;
+    padding-left: 0px;
+    padding-top:40px;
+    
+}
+.button-submit
+{
+    border-radius: 30px;
+    margin-left:90px;
+    font-size: 30px;
+    background-color: navy;
+    width:180px;
+    color :white;  
+    margin-top:20px;
+}
+.button
+{
+    padding:5px;
+}
