@@ -9,7 +9,7 @@ addEventListener("submit", function (e){
     temp=1;
    }
    else{
-   document.getElementById("nameValidation").innerText="Name Must Be More Than or Equal to 3 Characters";
+   document.getElementById("nameValidation").innerText="Name Must Be More Than or Equal to 3 Characters!";
     return false;
    }
    
@@ -22,7 +22,7 @@ addEventListener("submit", function (e){
    }
    else
    {
-      document.getElementById("emailValidation").innerText="Email Must Contain @ and .com";
+      document.getElementById("emailValidation").innerText="Email Must Contain @ and .com!";
       inputEmailValue.focus();
       return false;   
    }
@@ -41,7 +41,7 @@ addEventListener("submit", function (e){
    }
    else
    {
-      ocument.getElementById("messageValidation").innerText="Message Must Be More Than Or Equal to 3 Words";
+      document.getElementById("messageValidation").innerText="Message Must Be More Than Or Equal to 3 Words!";
       inputMessageValue.focus();
       return false;   
    }

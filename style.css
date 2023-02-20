@@ -96,3 +96,18 @@
 {
     padding:5px;
 }
+#nameValidation
+{
+    color :red;
+    margin-left: 8px;
+}
+#emailValidation
+{
+    color :red;
+    margin-left: 8px;
+}
+#messageValidation
+{
+    color :red;
+    margin-left: 8px;
+}
