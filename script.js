@@ -9,8 +9,7 @@ addEventListener("submit", function (e){
     temp=1;
    }
    else{
-    alert ("Nama Minimal Terdiri Dari 3 Karakter!");
-    inputNameValue.focus();
+   document.getElementById("nameValidation").innerText="Name Must Be More Than or Equal to 3 Characters";
     return false;
    }
    
@@ -23,7 +22,7 @@ addEventListener("submit", function (e){
    }
    else
    {
-      alert ("Email Tidak Valid!! (Harus ada simbol @ dan .)");
+      document.getElementById("emailValidation").innerText="Email Must Contain @ and .com";
       inputEmailValue.focus();
       return false;   
    }
@@ -42,7 +41,7 @@ addEventListener("submit", function (e){
    }
    else
    {
-      alert ("Message Minimal Terdiri Dari 3 Kata!");
+      ocument.getElementById("messageValidation").innerText="Message Must Be More Than Or Equal to 3 Words";
       inputMessageValue.focus();
       return false;   
    }
