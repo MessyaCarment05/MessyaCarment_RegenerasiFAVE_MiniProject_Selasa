@@ -3,7 +3,7 @@ document.getElementById("forms").
 addEventListener("submit", function (e){
     e.preventDefault();
     let inputNameValue=document.getElementById("inputname").value;
-    let temp="0";
+    let temp=0;
    if (inputNameValue.length>=3)
    {
     temp=1;
