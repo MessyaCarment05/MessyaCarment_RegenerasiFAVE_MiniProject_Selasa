@@ -4,7 +4,11 @@ addEventListener("submit", function (e){
     e.preventDefault();
     let inputNameValue=document.getElementById("inputname").value;
     let temp=0;
-   if (inputNameValue.length>=3)
+   if (inputNameValue=="")
+   {
+      document.getElementById("nameValidation").innerText="Name Cannot Be Empty!";
+   }
+   else if (inputNameValue.length>=3)
    {
     temp=1;
    }
@@ -14,9 +18,13 @@ addEventListener("submit", function (e){
    }
    
    let inputEmailValue=document.getElementById("inputemail").value;
-   let validasiDots=inputEmailValue.lastIndexOf(".");
-
-   if (validasiDots>=1)
+   letvalidasiSimbol =inputEmailValue.lastIndexOf("@");
+   let validasiDots=inputEmailValue.lastIndexOf(".com");
+   if (inputEmailValue=="")
+   {
+      document.getElementById("emailValidation").innerText="Email Cannot Be Empty!";
+   }
+   else if (validasiDots==1 && validasiSimbol==1)
    {
       temp=1;
    }
